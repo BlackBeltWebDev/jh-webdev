@@ -1,2 +1,2 @@
-# jh-webdev
+# jhu-webdev
 Johns Hopkins / Web Dev Course
