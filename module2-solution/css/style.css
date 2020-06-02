@@ -150,7 +150,8 @@ p {
 /********** Phones ans Small Devices - 767px and bellow **********/
 @media (max-width: 767px) {
   .col-sm-12 {
-    float: left; 
+    float: left;
+    min-width: 273px;
   }
   .col-sm-12 {
     width: 100%;
