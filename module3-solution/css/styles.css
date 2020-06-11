@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Balsamiq Sans";
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  border: 3px solid black;
+}
+
+#header-nav {
+  background-color: #999999;
+  border-bottom: 3px solid black;
+}
+
+.navbar-brand {
+  color:black;
+  font-weight: 900;
+  font-size: 2rem;
+  padding-left: 35px;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+#menu-title  {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  text-align: center;
+  background-color: #999999;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 6px;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+p {
+  text-align: left;
+  font-size: 1rem;
+  background-color: #999999;
+  padding: 8px 15px 8px 15px;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+@media (min-width: 769px) {
+  
+  .jumbotron {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  body {
+    min-width: 350px;
+  }
+ 
+  .navbar {
+    padding: 0px;
+  }
+  .navbar-toggler {
+    /* Navbar buttom shap */
+    padding: 0.25rem 0.3rem;
+    line-height: 1;
+    border-radius: 0.25rem;
+    /* Navbar buttom size */
+    font-size: 1.25rem;
+    /* Navbar buttom external border */
+    border: 3px solid transparent;
+    /* Navbar buttom position */
+    margin-right: 10px;
+    /* Navbar buttom inner background */
+    background-color: transparent;
+  }
+  .navbar-light .navbar-toggler {
+    /* Navbar buttom external border transparency*/
+    border-color: rgba(0, 0, 0, 0.5);
+  } 
+
+  #chicken {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+  }
+
+  #beef {
+    border-bottom: 3px solid black;
+  }
+  
+  #chicken, #beef, #sushi {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #E7E7E7;
+  }
+  #chicken:hover  {
+    background-color: #999999;
+  } 
+  #beef:hover  {
+    background-color: #999999;
+  } 
+  #sushi:hover  {
+    background-color: #999999;
+  } 
+  .inner-container p {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .inner-container h3 {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
